@@ -1,0 +1,346 @@
+Dependencies for Project 'Firmware', Target 'Firmware': (DO NOT MODIFY !)
+F (.\Sources\hid.h)(0x6002B050)()
+F (.\Sources\hiduser.c)(0x5FCDF21D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\hiduser.o --omf_browse .\objects\hiduser.crf --depend .\objects\hiduser.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+I (Sources\type.h)(0x60EC1F72)
+I (Sources\usb.h)(0x5FC49D4C)
+I (Sources\hid.h)(0x6002B050)
+I (Sources\usbcfg_MDR32F9x.h)(0x602E551F)
+I (Sources\usbcore.h)(0x55B1EA2F)
+I (Sources\usbdesc.h)(0x6017C76C)
+I (Sources\hiduser.h)(0x5FCDF0EC)
+I (Sources\main.h)(0x6030C7EC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x5B067368)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x5C540C76)
+I (Sources\systick.h)(0x6002FB24)
+I (Sources\usbhw_MDR32F9x.h)(0x55B69A85)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (Sources\queue.h)(0x601D447A)
+F (.\Sources\hiduser.h)(0x5FCDF0EC)()
+F (.\Sources\main.c)(0x6128EEC8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (Sources\main.h)(0x6030C7EC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x5B067368)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x5C540C76)
+I (Sources\systick.h)(0x6002FB24)
+I (Sources\usbhw_MDR32F9x.h)(0x55B69A85)
+I (Sources\type.h)(0x60EC1F72)
+I (Sources\usb.h)(0x5FC49D4C)
+I (Sources\usbdesc.h)(0x6017C76C)
+I (Sources\hid.h)(0x6002B050)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (Sources\queue.h)(0x601D447A)
+I (Sources\ps2phy.h)(0x5FE1C593)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599F137E)
+I (Sources\uart.h)(0x5FB272A1)
+I (Sources\kbms.h)(0x6030D9E6)
+I (Sources\ps2protocol.h)(0x601D447A)
+I (Sources\config.h)(0x6030E225)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+F (.\Sources\main.h)(0x6030C7EC)()
+F (.\Sources\MDR32F9Qx_config.h)(0x602BBCFC)()
+F (.\Sources\type.h)(0x60EC1F72)()
+F (.\Sources\usb.h)(0x5FC49D4C)()
+F (.\Sources\usbcfg_MDR32F9x.h)(0x602E551F)()
+F (.\Sources\usbcore.c)(0x6017C857)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\usbcore.o --omf_browse .\objects\usbcore.crf --depend .\objects\usbcore.d)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (Sources\usbreg_MDR32F9x.h)(0x55B69A6C)
+I (Sources\type.h)(0x60EC1F72)
+I (Sources\usb.h)(0x5FC49D4C)
+I (Sources\usbcfg_MDR32F9x.h)(0x602E551F)
+I (Sources\usbhw_MDR32F9x.h)(0x55B69A85)
+I (Sources\usbcore.h)(0x55B1EA2F)
+I (Sources\usbdesc.h)(0x6017C76C)
+I (Sources\usbuser.h)(0x55B1EA2F)
+I (Sources\hid.h)(0x6002B050)
+I (Sources\hiduser.h)(0x5FCDF0EC)
+F (.\Sources\usbcore.h)(0x55B1EA2F)()
+F (.\Sources\usbdesc.c)(0x6030E472)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\usbdesc.o --omf_browse .\objects\usbdesc.crf --depend .\objects\usbdesc.d)
+I (Sources\type.h)(0x60EC1F72)
+I (Sources\usb.h)(0x5FC49D4C)
+I (Sources\usbcfg_MDR32F9x.h)(0x602E551F)
+I (Sources\usbdesc.h)(0x6017C76C)
+I (Sources\hid.h)(0x6002B050)
+F (.\Sources\usbdesc.h)(0x6017C76C)()
+F (.\Sources\usbhw_MDR32F9x.c)(0x602BBB64)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\usbhw_mdr32f9x.o --omf_browse .\objects\usbhw_mdr32f9x.crf --depend .\objects\usbhw_mdr32f9x.d)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (Sources\type.h)(0x60EC1F72)
+I (Sources\usb.h)(0x5FC49D4C)
+I (Sources\usbcfg_MDR32F9x.h)(0x602E551F)
+I (Sources\usbreg_MDR32F9x.h)(0x55B69A6C)
+I (Sources\usbhw_MDR32F9x.h)(0x55B69A85)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_handlers.h)(0x55A4BA40)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_default_handlers.h)(0x55A4BA40)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_CDC.h)(0x55A4BA40)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_device.h)(0x55A4BA40)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_usb.h)(0x5C540C8A)
+I (Sources\MDR32F9Qx_usb_device.h)(0x4FAD31A3)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x5C540C76)
+I (Sources\usbcore.h)(0x55B1EA2F)
+I (Sources\usbdesc.h)(0x6017C76C)
+I (Sources\usbuser.h)(0x55B1EA2F)
+F (.\Sources\usbhw_MDR32F9x.h)(0x55B69A85)()
+F (.\Sources\usbreg_MDR32F9x.h)(0x55B69A6C)()
+F (.\Sources\usbuser.c)(0x602E4BAC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\usbuser.o --omf_browse .\objects\usbuser.crf --depend .\objects\usbuser.d)
+I (Sources\type.h)(0x60EC1F72)
+I (Sources\usb.h)(0x5FC49D4C)
+I (Sources\usbcfg_MDR32F9x.h)(0x602E551F)
+I (Sources\usbhw_MDR32F9x.h)(0x55B69A85)
+I (Sources\usbcore.h)(0x55B1EA2F)
+I (Sources\usbdesc.h)(0x6017C76C)
+I (Sources\usbuser.h)(0x55B1EA2F)
+I (Sources\hiduser.h)(0x5FCDF0EC)
+I (Sources\main.h)(0x6030C7EC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x5B067368)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x5C540C76)
+I (Sources\systick.h)(0x6002FB24)
+I (Sources\hid.h)(0x6002B050)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (Sources\queue.h)(0x601D447A)
+I (Sources\usbreg_MDR32F9x.h)(0x55B69A6C)
+F (.\Sources\usbuser.h)(0x55B1EA2F)()
+F (.\Sources\systick.c)(0x6006C9C0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (Sources\systick.h)(0x6002FB24)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+F (.\Sources\systick.h)(0x6002FB24)()
+F (.\Sources\MDR32F9Qx_usb_device.c)(0x5FBCFB18)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\mdr32f9qx_usb_device.o --omf_browse .\objects\mdr32f9qx_usb_device.crf --depend .\objects\mdr32f9qx_usb_device.d)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x5C540C76)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_handlers.h)(0x55A4BA40)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_default_handlers.h)(0x55A4BA40)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_CDC.h)(0x55A4BA40)
+I (.\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library\MDR32F9Qx_usb_device.h)(0x55A4BA40)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_usb.h)(0x5C540C8A)
+F (.\Sources\uart.c)(0x5FDB034E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (Sources\uart.h)(0x5FB272A1)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_uart.h)(0x5B0673D8)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x5B067368)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x5C540C76)
+F (.\Sources\kbms.c)(0x6030D9E6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\kbms.o --omf_browse .\objects\kbms.crf --depend .\objects\kbms.d)
+I (Sources\type.h)(0x60EC1F72)
+I (Sources\kbms.h)(0x6030D9E6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (Sources\ps2phy.h)(0x5FE1C593)
+I (Sources\systick.h)(0x6002FB24)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (Sources\ps2protocol.h)(0x601D447A)
+I (Sources\queue.h)(0x601D447A)
+I (Sources\hid.h)(0x6002B050)
+I (Sources\matrix.h)(0x6021111D)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+F (.\Sources\ps2phy.c)(0x601D4440)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\ps2phy.o --omf_browse .\objects\ps2phy.crf --depend .\objects\ps2phy.d)
+I (Sources\ps2phy.h)(0x5FE1C593)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x5B067368)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (Sources\systick.h)(0x6002FB24)
+I (Sources\queue.h)(0x601D447A)
+F (.\Sources\ps2protocol.c)(0x601D447A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\ps2protocol.o --omf_browse .\objects\ps2protocol.crf --depend .\objects\ps2protocol.d)
+I (Sources\ps2protocol.h)(0x601D447A)
+I (Sources\ps2phy.h)(0x5FE1C593)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (Sources\systick.h)(0x6002FB24)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (Sources\queue.h)(0x601D447A)
+F (.\Sources\queue.c)(0x601D447A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (Sources\queue.h)(0x601D447A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+F (.\Sources\matrix.c)(0x6021111D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\matrix.o --omf_browse .\objects\matrix.crf --depend .\objects\matrix.d)
+I (Sources\matrix.h)(0x6021111D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+F (.\Sources\config.c)(0x6131EAFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\config.o --omf_browse .\objects\config.crf --depend .\objects\config.d)
+I (Sources\config.h)(0x6030E225)
+I (Sources\type.h)(0x60EC1F72)
+I (Sources\usb.h)(0x5FC49D4C)
+I (Sources\usbdesc.h)(0x6017C76C)
+I (Sources\hid.h)(0x6002B050)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x5B067368)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+F (RTE\Device\MDR1986BE92\startup_MDR32F9Qx.s)(0x554D2E62)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc--pd "__UVISION_VERSION SETA 527" --pd "_RTE_ SETA 1" --pd "USE_MDR32F9Q2_Rev1 SETA 1"--list .\listings\startup_mdr32f9qx.lst --xref -o .\objects\startup_mdr32f9qx.o --depend .\objects\startup_mdr32f9qx.d)
+F (RTE\Device\MDR1986BE92\system_MDR32F9Qx.c)(0x602BBABD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\system_mdr32f9qx.o --omf_browse .\objects\system_mdr32f9qx.crf --depend .\objects\system_mdr32f9qx.d)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+F (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)()
+F (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_port.c)(0x5C540CCC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\mdr32f9qx_port.o --omf_browse .\objects\mdr32f9qx_port.crf --depend .\objects\mdr32f9qx_port.d)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x5B067368)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+F (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_power.c)(0x5C540CD2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\mdr32f9qx_power.o --omf_browse .\objects\mdr32f9qx_power.crf --depend .\objects\mdr32f9qx_power.d)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_power.h)(0x5C540C70)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x5C540C76)
+F (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c)(0x5C540CD8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\mdr32f9qx_rst_clk.o --omf_browse .\objects\mdr32f9qx_rst_clk.crf --depend .\objects\mdr32f9qx_rst_clk.d)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x5C540C76)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+F (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_timer.c)(0x5C540CE0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\mdr32f9qx_timer.o --omf_browse .\objects\mdr32f9qx_timer.crf --depend .\objects\mdr32f9qx_timer.d)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_timer.h)(0x5C540C84)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+F (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_uart.c)(0x5C540CE6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\mdr32f9qx_uart.o --omf_browse .\objects\mdr32f9qx_uart.crf --depend .\objects\mdr32f9qx_uart.d)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_uart.h)(0x5B0673D8)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x5C540C76)
+F (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_usb.c)(0x5B0671C2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I Sources -I .\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\USB_Library -I .\Includes\Keyboard-I.\RTE\Device\MDR1986BE92-I.\RTE\_Firmware-IC:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Config-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\CoreSupport-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc-IC:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc-D__UVISION_VERSION="527" -D_RTE_ -DUSE_MDR32F9Q2_Rev1-o .\objects\mdr32f9qx_usb.o --omf_browse .\objects\mdr32f9qx_usb.crf --depend .\objects\mdr32f9qx_usb.d)
+I (Sources\MDR32F9Qx_config.h)(0x602BBCFC)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x5B067348)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x612625CD)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h)(0x5B0677C2)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F1772)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (.\RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x542BE8B4)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_usb.h)(0x5C540C8A)
+I (C:\Users\murzina\AppData\Local\Arm\Packs\Keil\MDR1986BExx\1.51\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x5C540C76)
